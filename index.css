@@ -1,23 +1,52 @@
 header .lambda {
-	height: 50px;
-	width: 50px;
-	padding: 400px;
-	border: solid;
-	margin: 60px;
+	height: 40px;
+	width: 157px;
+	padding: 20px 78.5px 20px 78.5px;
+	border: none;
+	/*margin: 20px;*/
+	display: flex;
+	flex-direction: row rtl;
 }
 
-header .container .links nav a:link{
-	padding: 100px 50px 100px 50px;
+header .links {
+	width: 900px;
 	border: solid;
-	margin-left: 200px;
+	display: flex;
+	/*margin-left: 800px;*/
+	flex-wrap: wrap-reverse;
+	justify-content: flex-start;
+    justify-content: space-evenly;	
 }
 
-header .jumbo {
-	height: 50px;
-	width: 200px;
-	padding: 400px;
+header .links nav a {
+	width: 60px;
 	border: solid;
-	margin-bottom: 400px;
+	margin: 4px;
+	display: flex;
+	justify-content: flex-start;
+	justify-content: flex-end;
+	justify-content: space-evenly;
+}
+
+.jumbo .jumbo {
+	height: 153px;
+	width: 800px;
+	/*padding: 76.5px 400px 76.5px 400px*/
+	/*padding: 38.25px 200px 38.25px 200px;*/
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 100px;
+	margin-bottom: 2px;
+	margin-left: 300px;
+}
+
+.container {
+	margin: 150px;
+}
+
+.container.top-content.text-container {
+	white-space: normal;
+	margin-right: 50px;
 }
 
 .container.middle-content.boxes.box{
@@ -49,4 +78,8 @@ header .jumbo {
 }
 .container.middle-content.boxes.box.box.box.box.box.box.box.box.box{
     color: dodgerblue;
+}
+
+.container.bottom-content.text-container {
+	white-space: normal;
 }
