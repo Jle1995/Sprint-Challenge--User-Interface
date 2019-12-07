@@ -1,0 +1,52 @@
+header .lambda {
+	height: 50px;
+	width: 50px;
+	padding: 400px;
+	border: solid;
+	margin: 60px;
+}
+
+header .container .links nav a:link{
+	padding: 100px 50px 100px 50px;
+	border: solid;
+	margin-left: 200px;
+}
+
+header .jumbo {
+	height: 50px;
+	width: 200px;
+	padding: 400px;
+	border: solid;
+	margin-bottom: 400px;
+}
+
+.container.middle-content.boxes.box{
+    color: teal;
+}
+.container.middle-content.boxes.box.box{
+    color: gold;
+}
+.container.middle-content.boxes.box.box.box{
+    color: cadetblue;
+}
+.container.middle-content.boxes.box.box.box.box {
+    color: coral;
+}
+.container.middle-content.boxes.box.box.box.box.box{
+    color: crimson;
+}
+.container.middle-content.boxes.box.box.box.box.box.box{
+    color: forestgreen;
+}
+.container.middle-content.boxes.box.box.box.box.box.box.box{
+    color: darkorchild;
+}
+.container.middle-content.boxes.box.box.box.box.box.box.box.box{
+    color: hotpink;
+}
+.container.middle-content.boxes.box.box.box.box.box.box.box.box{
+    color: indigo;
+}
+.container.middle-content.boxes.box.box.box.box.box.box.box.box.box{
+    color: dodgerblue;
+}

@@ -1,146 +1,85 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+header .lambda {
+	height: 40px;
+	width: 157px;
+	padding: 20px 78.5px 20px 78.5px;
+	border: none;
+	/*margin: 20px;*/
+	display: flex;
+	flex-direction: row rtl;
 }
 
-* {
-    box-sizing: border-box;
+header .links {
+	width: 900px;
+	border: solid;
+	display: flex;
+	/*margin-left: 800px;*/
+	flex-wrap: wrap-reverse;
+	justify-content: flex-start;
+    justify-content: space-evenly;	
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Roboto', sans-serif;
+header .links nav a {
+	width: 60px;
+	border: solid;
+	margin: 4px;
+	display: flex;
+	justify-content: flex-start;
+	justify-content: flex-end;
+	justify-content: space-evenly;
 }
 
-h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
-}
-
-p {
-    line-height: 1.4;
+.jumbo .jumbo {
+	height: 153px;
+	width: 800px;
+	/*padding: 76.5px 400px 76.5px 400px*/
+	/*padding: 38.25px 200px 38.25px 200px;*/
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 100px;
+	margin-bottom: 2px;
+	margin-left: 300px;
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+	margin: 150px;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.container.top-content.text-container {
+	white-space: normal;
+	margin-right: 50px;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.container.middle-content.boxes.box{
+    color: teal;
+}
+.container.middle-content.boxes.box.box{
+    color: gold;
+}
+.container.middle-content.boxes.box.box.box{
+    color: cadetblue;
+}
+.container.middle-content.boxes.box.box.box.box {
+    color: coral;
+}
+.container.middle-content.boxes.box.box.box.box.box{
+    color: crimson;
+}
+.container.middle-content.boxes.box.box.box.box.box.box{
+    color: forestgreen;
+}
+.container.middle-content.boxes.box.box.box.box.box.box.box{
+    color: darkorchild;
+}
+.container.middle-content.boxes.box.box.box.box.box.box.box.box{
+    color: hotpink;
+}
+.container.middle-content.boxes.box.box.box.box.box.box.box.box{
+    color: indigo;
+}
+.container.middle-content.boxes.box.box.box.box.box.box.box.box.box{
+    color: dodgerblue;
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
+.container.bottom-content.text-container {
+	white-space: normal;
 }
