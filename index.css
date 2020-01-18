@@ -3,50 +3,95 @@ header .lambda {
 	width: 157px;
 	padding: 20px 78.5px 20px 78.5px;
 	border: none;
-	/*margin: 20px;*/
+	margin: 20px;
 	display: flex;
 	flex-direction: row rtl;
 }
 
 header .links {
-	width: 900px;
-	border: solid;
+	font-family: roboto;
+	font-size: 18px;
+	height: 100px;
+	width: 1200px;
+	padding: 50px;
+	border: none;
 	display: flex;
-	/*margin-left: 800px;*/
+	margin-left: 140px;
+	margin-top: -110px;
 	flex-wrap: wrap-reverse;
 	justify-content: flex-start;
     justify-content: space-evenly;	
 }
 
-header .links nav a {
+.links nav a {
+	height: 60px;
 	width: 60px;
-	border: solid;
-	margin: 4px;
+	border: none;
+	margin-right: 60px;
 	display: flex;
 	justify-content: flex-start;
 	justify-content: flex-end;
 	justify-content: space-evenly;
 }
 
-.jumbo .jumbo {
-	height: 153px;
-	width: 800px;
-	/*padding: 76.5px 400px 76.5px 400px*/
-	/*padding: 38.25px 200px 38.25px 200px;*/
-	padding: 0px;
-	margin-top: 10px;
-	margin-right: 100px;
+img.jumbo {
+	height: 253px;
+	width: 1260px;
+	padding: 76.5px 400px 76.5px 400px;
+	margin-top: -150px;
 	margin-bottom: 2px;
-	margin-left: 300px;
+	margin-left: -300px;
 }
 
-.container {
-	margin: 150px;
+.top-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: -40px;
 }
 
-.container.top-content.text-container {
+
+.top-content .text-container {
+	justify-content: row-reverse;
+	height: 100x;
+	width: 500px;
+	font-family: roboto;
+	font-size: 24px;
 	white-space: normal;
-	margin-right: 50px;
+	padding: 1px;
+	margin-left: 1px;
+}
+
+
+
+footer nav.footer-links {
+	display: flex;
+	flex-direction: row;
+	height: 100px;
+	width: 10px;
+	padding: 50px;
+	margin: 10px 0 0 10px;
+}
+
+footer nav.footer-links a {
+	justify-content: space-around;
+	border: solid;
+	margin-left: 20px;
+}
+
+/*
+header .links nav {
+	padding: 100px 50px 100px 50px;
+	border: solid;
+	margin-left: 200px;
+}
+
+header .jumbo {
+	height: 50px;
+	width: 200px;
+	padding: 400px;
+	border: solid;
+	margin-bottom: 400px;
 }
 
 .container.middle-content.boxes.box{
@@ -79,7 +124,10 @@ header .links nav a {
 .container.middle-content.boxes.box.box.box.box.box.box.box.box.box{
     color: dodgerblue;
 }
+*/
 
-.container.bottom-content.text-container {
-	white-space: normal;
+.bottom-content .text-container {
+	height: 400px;
+	width: 400px;
+	padding: 100px;
 }
